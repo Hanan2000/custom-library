@@ -330,13 +330,18 @@ align-items: flex-start;
 }
 
 .btn{
-    padding: 22px;
+    padding: 18px;
     border-radius: 180px;
     border: none;
-    font-size: 15.3px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
 
+}
+
+.btn.disabled {
+    pointer-events: none;
+    opacity: 0.65;
 }
 img {
     width: 100%;
@@ -347,6 +352,14 @@ img {
     max-width: 58.5px;
     margin: 15px  auto;
     background-color: #f4623a;
+    opacity: 2;
+}
+
+.divider-1 {
+        height: 3.2px;
+    max-width: 58.5px;
+    margin: 15px  auto;
+    background-color: white;
     opacity: 2;
 }
 
